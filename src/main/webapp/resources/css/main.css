@@ -1,0 +1,117 @@
+textarea {
+    overflow: auto;
+}
+
+
+
+
+}
+h1,h2, h3, p {
+    orphans: 3;
+    widows: 3;
+}
+h1,h2, h3 {
+    page-break-after: avoid;
+}
+
+.body {
+	background-color: #EDEDED;
+    color: #555555;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0;
+}
+.errorBody{
+	background-color: #EDEDED;
+    color: #555555;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    margin: 0;
+    float:left; margin-left: 100px;  min-height: 100px;
+    display: block;
+}
+	.submitbutton{
+		border: 1px solid #CCCCCC;
+    	float: left;
+    	font-size: 15px;
+    	margin-left: 300px;
+    	padding: 4px;
+    	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+    	width: 160px;
+    	font-weight: bolder;
+   		text-align: center;
+   		 background-color: lightslategray;
+		}
+	.textFont{
+		font-size: 19px;
+    	margin-left: 150px;
+    	text-shadow: 0 -1px 3px rgba(0, 0, 0, 0.25);
+    	
+	}
+
+	.error {
+  		border: medium inset red;
+   		color: red;
+    	display: none;
+    	font-size: 18px;
+    	margin-left: 150px;
+    	margin-top: 50px;
+    	padding: 0.25em;
+    	margin-right: 150px; bottom: 0px; margin-left: 150px;
+    	width: 450;
+    	height: 100;
+    	text-align: center;
+}
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.focused {
+    background: #abcdef;
+}
+.black_overlay{
+        display: none;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index:1001;
+        -moz-opacity: 0.8;
+        opacity:.80;
+        filter: alpha(opacity=80);
+    }
+
+    
+    .wallpapered {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    outline: 1px lightblue;
+    margin-left: 150px;
+	
+}
+.wallpapered textarea {
+    width: inherit;
+    height: inherit;
+}
+.wallpapered .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: gray;
+}
+.somebutton {
+	margin-left: 150px;
+}
+.statusMessage {
+  		display: none;
+    	font-size: 18px;
+    	margin-left: 150px;
+    	margin-top: 50px;
+    	padding: 0.25em;
+    	margin-right: 150px; bottom: 0px; margin-left: 150px;
+}
